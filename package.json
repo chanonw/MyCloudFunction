@@ -16,7 +16,9 @@
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "firebase-admin": "^8.0.0",
-    "firebase-functions": "^3.0.0"
+    "firebase-functions": "^3.0.0",
+    "sequelize": "^5.9.4",
+    "tedious": "^6.2.0"
   },
   "devDependencies": {
     "eslint": "^5.12.0",

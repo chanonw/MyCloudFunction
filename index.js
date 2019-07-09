@@ -2,8 +2,11 @@ const functions = require('firebase-functions');
 const express = require('express');
 const cors = require('cors');
 const defaultRouter = require('./routes/defaultRouter')
+const connection = require('./connection');
 
 const app = express();
+
+connection.connect();
 
 app.use(
   cors({
